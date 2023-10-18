@@ -58,6 +58,9 @@ addVals = {'jupiter': [-0.00012452, 0.06064060, -0.35635438, 38.35125000],
            'uranus': [0.00058331, -0.97731848, 0.17689245, 7.67025000],
            'neptune': [-0.00041348, 0.68346318, -0.10162547, 7.67025000]}
 
+
+# Change this value to any planet to get the orbital locations (earth is earthb because it returns the barycenter of
+# itself and the moon)
 planetVal = "mercury"
 
 orbitVals = planetDictionary[planetVal]
